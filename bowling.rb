@@ -33,7 +33,8 @@ class Bowling
   end
 
   def strikeBonus(rollIndex)
-    @hits[rollIndex + 1] + @hits[rollIndex + 2] end
+    @hits[rollIndex + 1] + @hits[rollIndex + 2]
+  end
   
   def isSpare?(rollIndex)
     scoreAFrame(rollIndex) == 10
